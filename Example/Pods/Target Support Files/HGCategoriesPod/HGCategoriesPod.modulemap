@@ -1,0 +1,6 @@
+framework module HGCategoriesPod {
+  umbrella header "HGCategoriesPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

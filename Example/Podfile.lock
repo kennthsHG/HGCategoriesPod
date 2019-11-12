@@ -1,0 +1,16 @@
+PODS:
+  - HGCategoriesPod (0.1.0)
+
+DEPENDENCIES:
+  - HGCategoriesPod (from `../`)
+
+EXTERNAL SOURCES:
+  HGCategoriesPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HGCategoriesPod: 5c1d12181f5de6ec7f358c01c51dfe57893dddb7
+
+PODFILE CHECKSUM: acdd7c806c61ccda1eb971aed5efe2becaa5763d
+
+COCOAPODS: 1.6.1

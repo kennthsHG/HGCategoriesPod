@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03DF1ED75A3B9B348ADD43C9 /* HGCategoriesPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HGCategoriesPod.podspec; path = ../HGCategoriesPod.podspec; sourceTree = "<group>"; };
-		5730097AD9ACBE1C5F96B617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03DF1ED75A3B9B348ADD43C9 /* HGCategoriesPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGCategoriesPod.podspec; path = ../HGCategoriesPod.podspec; sourceTree = "<group>"; };
+		5730097AD9ACBE1C5F96B617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +27,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		A64144EDAE00C78F40FA9163 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A64144EDAE00C78F40FA9163 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BB09A60A8FCB91298EA8349B /* Pods_HGCategoriesPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGCategoriesPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA8B26A867CD7CCBD8CB7EE /* Pods-HGCategoriesPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCategoriesPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-HGCategoriesPod_Tests/Pods-HGCategoriesPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB75639A302B82194A820A51 /* Pods-HGCategoriesPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCategoriesPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HGCategoriesPod_Tests/Pods-HGCategoriesPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +54,6 @@
 				DB75639A302B82194A820A51 /* Pods-HGCategoriesPod_Tests.debug.xcconfig */,
 				BCA8B26A867CD7CCBD8CB7EE /* Pods-HGCategoriesPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +150,7 @@
 				ORGANIZATIONNAME = "黄 纲";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = M75M5VC229;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -160,6 +160,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB75639A302B82194A820A51 /* Pods-HGCategoriesPod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M75M5VC229;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -355,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BCA8B26A867CD7CCBD8CB7EE /* Pods-HGCategoriesPod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M75M5VC229;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

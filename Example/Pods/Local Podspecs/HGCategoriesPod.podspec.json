@@ -1,0 +1,22 @@
+{
+  "name": "HGCategoriesPod",
+  "version": "0.1.0",
+  "summary": "类别库.",
+  "description": "HG-IOS类别库",
+  "homepage": "https://github.com/kennthsHG/HGCategoriesPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "黄 纲": "362168751@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kennthsHG/HGCategoriesPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HGCategoriesPod/Classes/**/*"
+}
