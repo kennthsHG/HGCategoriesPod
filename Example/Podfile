@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HGCategoriesPod_Tests' do
+  pod 'HGCategoriesPod', :path => '../'
+  
+  
+end
